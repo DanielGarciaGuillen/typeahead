@@ -22,8 +22,10 @@ fetch(endpoint)
 ```
 
 * Use regex to match city or state with 
-    `const regex = new RegExp (wordToMatch, 'gi');`
-    `return place.city.match(regex) || place.state.match(regex)`
+```
+    const regex = new RegExp (wordToMatch, 'gi');
+    return place.city.match(regex) || place.state.match(regex)
+```
 
 ## Built With
 
