@@ -9,7 +9,7 @@ Type any query to start the search.
 ## Demo
 
 ## [Type Ahead List](https://danielgarciaguillen.github.io/typeahead/)
-![Css Controler](/image/playingcss.png?raw=true "CssClock")
+![Css Controler](/image/typeahead.jpg?raw=true "CssClock")
 
 
 ## Learnings
@@ -26,6 +26,7 @@ fetch(endpoint)
     const regex = new RegExp (wordToMatch, 'gi');
     return place.city.match(regex) || place.state.match(regex)
 ```
+* 
 
 ## Built With
 
