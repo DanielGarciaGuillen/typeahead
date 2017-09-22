@@ -14,9 +14,10 @@ Type any query to start the search.
 
 ## Learnings
 
-* How to fetch data with `fetch(endpoint)`
-                                        `.then(blob => blob.json())`
-                                        `.then(data => cities.push(...data))`
+* How to fetch data with 
+```  fetch(endpoint)
+                             .then(blob => blob.json())
+                             .then(data => cities.push(...data))```
 * Use regex to match city or state with 
     `const regex = new RegExp (wordToMatch, 'gi');`
     `return place.city.match(regex) || place.state.match(regex)`
